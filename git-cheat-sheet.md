@@ -33,6 +33,14 @@ Git Cheat Sheet
 
 <hr>
 
+
+
+##### Testing a pull request:
+
+```
+$ git fetch origin pull/ID/head && git checkout FETCH_HEAD
+```
+
 ## Setup
 
 ##### Show current configuration:
